@@ -2,9 +2,9 @@
 .metadata/
 .settings/
 bin/
-*.class
 
 # 자동생성파일
+*.class
 *.jar
 *.war
 *.ear
