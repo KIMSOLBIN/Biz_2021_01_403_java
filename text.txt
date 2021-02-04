@@ -1,0 +1,6 @@
+public calss Hello{
+	public static void main(String args[]){
+		system.out.println("대한민국만만세");
+
+		}
+}		
