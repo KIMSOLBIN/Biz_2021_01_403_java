@@ -30,12 +30,24 @@ public class ScoreServiceExtendsV1 extends ScoreServiceV4 {
 	// reture이라는 코드가 사용될려면 void가 아닌 int로 사용해야함.
 	public int input(String subject) {
 		
-		// Scanner는 정수,실수,문자열을 읽어올 수 있는 클래스이다
+		// Scanner는 정수,실수,문자열을 읽어올 수 있는 클래스
+		//1. Scanner 클래스란 화면으로부터 데이터를 입력받는 기능을 제공하는 클래스입니다. 
+		// 카톡에서 메세지를 입력 후 전송 버튼을 누르면 상대방에게 메세지가 전송되듯 메세지 대신 값을 입력받는 기능입니다.
+		//2. java.util 패키지 내에 존재하는 클래스입니다. 정수(int)와 실수(double)등의 기본적인 데이터 타입 입력을 받기 위한 클래스입니다.
 		// Scanner을 활성화하기 위해서는 
 		// ctrl + shift + O(영문 O)를 눌러 package와 public void 사이에 import java.util.Scanner이 나오는지 확인
 		// 또는 ctrl + space바로 자동완성도 가능
 		
-		//System.in은 입력한 값을 바이트 단위로 읽는 것을 뜻하는데
+		// 클래스도 객체를 생성해야만 기능을 사용할 수 있는 것이 있고 생성하지 않아도 되는 클래스가 있습니다. 
+		// println() 메소드와 같은 것은 객체를 생성하지 않고 사용 가능하지만 Scanner클래스는 꼭 객체를 생성해야만 사용할 수 있습니다.
+		// System.in은 화면에서 입력을 받겠다는 의미입니다. 
+		// Scanner클래스는 화면 뿐만 아니라 파일로부터 입력을 받을 수 있는데 
+		// 화면으로부터 정수형, 소수형과 같은 데이터 타입을 입력을 받을 것이기 때문에 System.in을 사용합니다.
+
+		 
+
+		// System.in은 입력한 값을 Byte 단위로 읽으며 키보드와 연결된 자바의 표준 입력 스트림입니다.
+		
 		Scanner scan = new Scanner(System.in);
 		
 		// int는 intScore이라는 단어에 0이란 숫자로 
@@ -66,6 +78,7 @@ public class ScoreServiceExtendsV1 extends ScoreServiceV4 {
 				System.out.println(subject + " 점수는 0 ~ 100 까지 입력");
 			} else {
 				break;
+			}
 			
 			if(intScore < 0) {
 				System.out.println(subject + "점수는 0점 이상입력!!");
@@ -88,3 +101,4 @@ public class ScoreServiceExtendsV1 extends ScoreServiceV4 {
 	}
 
 }
+
