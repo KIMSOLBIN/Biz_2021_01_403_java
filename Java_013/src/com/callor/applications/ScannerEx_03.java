@@ -41,5 +41,6 @@ public class ScannerEx_03 {
 		String strSum = strKor;
 		strSum += strEng;
 		System.out.print(strSum + "\n");
+		
 	}
 }

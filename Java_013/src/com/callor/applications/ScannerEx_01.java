@@ -22,6 +22,7 @@ public class ScannerEx_01 {
 		System.out.println(num1 + num2);
 		System.out.println("30" + "40");
 		System.out.println(strName);
+		
 	}
 
 }

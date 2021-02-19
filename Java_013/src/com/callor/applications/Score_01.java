@@ -19,6 +19,7 @@ public class Score_01 {
 		ssV1.sum();
 		ssV1.avg();
 		ssV1.print();
+		
 	}
 
 }

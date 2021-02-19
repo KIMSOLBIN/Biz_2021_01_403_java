@@ -31,6 +31,7 @@ public class ScannerEx_02 {
 		intScore = scan.nextInt();
 		
 		System.out.printf("%s : %d\n",strSub,intScore);
+		
 
  }
 }

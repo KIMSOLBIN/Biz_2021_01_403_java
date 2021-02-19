@@ -9,6 +9,7 @@ public class Score_02 {
 		ScoreServiceV2 ssV2 = new ScoreServiceV2();
 		ssV2.input();
 		ssV2.print();
+		
 	}
 
 }
