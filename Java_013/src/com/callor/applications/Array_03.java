@@ -26,7 +26,7 @@ public class Array_03 {
 		Scanner scan = new Scanner(System.in);
 		
 		for(int i = 0 ; i < strSub.length ;i ++) {
-			System.out.println(strSub[i] + "점수 >>");
+			System.out.print(strSub[i] + "점수 >>");
 			int score = scan.nextInt();
 			System.out.println("입력한 점수 : " + score);
 		}
