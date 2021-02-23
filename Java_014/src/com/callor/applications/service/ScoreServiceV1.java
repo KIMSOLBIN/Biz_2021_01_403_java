@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class ScoreServiceV1 {
 
 	// 인스턴스변수 선언
+	// 앞에 private를 붙힌다.
 		private String[] strName;
 		private int[] intKor;
 		private int[] intEng;
