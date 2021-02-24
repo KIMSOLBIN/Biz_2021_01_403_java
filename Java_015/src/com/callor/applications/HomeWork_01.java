@@ -9,7 +9,7 @@ public class HomeWork_01 {
 	public static void main(String[] args) {
 
 		Random rnd = new Random();
-		int[] num = new int[10];
+		int[] num = new int[100];
 		int i = 0;
 		for (i = 0; i < num.length; i++) {
 			num[i] = rnd.nextInt(100) + 1;
@@ -20,13 +20,10 @@ public class HomeWork_01 {
 		for (i = 0; i < num.length; i++) {
 			int result = ccV2.prime(num[i]);
 
-			if (result < 0) {
-
-			} else {
+			if (result > 0) {
 				System.out.println(result);
 				sum += result;
 			}
-
 		}
 
 		System.out.println("소수의 합 :" + sum);
