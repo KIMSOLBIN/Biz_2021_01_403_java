@@ -36,7 +36,7 @@ public class Score_01 {
 
 		// 평균계산
 		for (int i = 0; i < strName.length; i++) {
-			floatAvg[i] = (float) intSum[i] / 3;
+			floatAvg[i] = (float) intSum[i] / 3f;
 		}
 
 		System.out.println("==============================================");

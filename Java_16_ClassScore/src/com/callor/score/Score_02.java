@@ -19,7 +19,6 @@ public class Score_02 {
 		
 		Random rnd = new Random();
 		
-		int Sum = 0;
 		for (int i = 0; i < strName.length; i++) {
 			intKor[i] = rnd.nextInt(100) + 1;
 			intEng[i] = rnd.nextInt(100) + 1;
