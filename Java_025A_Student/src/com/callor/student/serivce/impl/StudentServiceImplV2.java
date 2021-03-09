@@ -1,5 +1,6 @@
 package com.callor.student.serivce.impl;
 
+import java.util.List;
 import java.util.Scanner;
 
 import com.callor.student.model.StudentVO;
@@ -30,7 +31,7 @@ public class StudentServiceImplV2 extends StudentServiceImplV1 {
 			}
 			
 			boolean bYesSearch = false;
-			for(StudentVO sVO : stdList) {
+			for(StudentVO sVO : stdList) { // List<StudentVO> stdList;에 protected List<StudentVO> stdList;해야함
 				if(strName.equals(sVO.getStName())) {
 					bYesSearch = true;
 					this.printStVO(sVO); // 출력하고
