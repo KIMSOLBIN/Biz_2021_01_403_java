@@ -5,7 +5,6 @@ public interface IoListService {
 	public void inputScore();
 	public void loadScoreFormFile();
 	public void PurchaseSales();
-	public void rankSet();
 	public void printScore();
 
 	
