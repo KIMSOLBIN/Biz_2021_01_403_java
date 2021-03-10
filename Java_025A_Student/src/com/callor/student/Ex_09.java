@@ -13,7 +13,7 @@ public class Ex_09 {
 		List<StudentVO> stdList = null;
 		for(int i = 0; i < 10 ; i++) {
 			
-			//StudentVO stdVO = null;
+			StudentVO stdVO = null;
 			stdVO.setStName("홍길동");
 			stdVO.setStNum("0001");
 			stdList.add(stdVO);

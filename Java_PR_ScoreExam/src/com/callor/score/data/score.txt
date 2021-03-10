@@ -1,0 +1,1 @@
+ScoreVO [stNum=1, kor=59, eng=98, math=65, music=45, total=0, avg=0.0],
